@@ -13,7 +13,7 @@ const fetchGitHubProjects = async () => {
         projectCard.className = "project-card";
         projectCard.innerHTML = `
         <div class="w3-container">
-            <img src="/img/github.png" alt="Imagem Padrão do Projeto" style="max-width: 200px;">
+            <img src="./img/github.png" alt="Imagem Padrão do Projeto" style="max-width: 200px;">
             <h5><a href="${project.html_url}" target="_blank" style="font-size:26px; text-decoration: none;">${project.name}</a></5>
             <hr>
         </div>
