@@ -1,41 +1,48 @@
-html,body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Roboto", sans-serif
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
 }
 
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.img-avatar {
+  max-width: 100%;
+  height: 50%;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
-
 
 .header {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
 }
-
 
 .topnav {
-    overflow: hidden;
-    background-color: #333;
+  overflow: hidden;
+  background-color: #333;
 }
-
 
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
